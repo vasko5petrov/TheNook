@@ -44,9 +44,6 @@ CREATE TABLE IF NOT EXISTS `users` (
 --
 
 INSERT INTO `users` (`id`, `firstname`, `lastname`, `username`, `email`, `password`, `from`, `birth_date`, `profile_picture`, `poster_picture`) VALUES
-(1, 'Vasko', 'Petrov', 'Skip1', 'scorpioman133@gmail.com', '606563a6fa524c4122b2fd5538cb57ff1aff1fc0', 'Bulgaria, Kyustendil', '1993-09-10', 'DSC_03181.jpg', 'wolf.jpg'),
-(20, 'test', 'test', 'test', 'test@test.com', '51abb9636078defbf888d8457a7c76f85c8f114c', '', '2014-04-21', '', ''),
-(21, 'Valia', 'Masaldjiiska', 'valq.m', 'valskaaa123@abv.bg', '32216e20278c90b7698ce3d340b7e4b24ba47078', 'Bulgaria, Rakovski', '1995-04-22', 'acd9f.jpg', ''),
 (24, 'Vivian', 'Dickens', 'vivianens', 'vivianens@example.com', '4d3773ba0022d3e9f2d36964d910eba953cd6b44', 'United States, Chicago', '1978-05-16', 'vivian_dickens.jpg', ''),
 (25, 'Robin', 'Jackman', 'robman', 'robman@example.com', '5de5cef96ffd97400c6bf35a5b3239556b074306', 'England, Porthsmouth', '1960-04-23', 'robin_jackman.jpg', ''),
 (26, 'Taylor', 'Edward', 'taylored', 'taylored@example.com', 'a2d15586d86031793fb4f47e1da3a384514d32de', 'Australia, Brisbane', '1988-04-30', 'taylor_edward.jpg', ''),
